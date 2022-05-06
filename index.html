@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, paper, scissors, lizard, Spock - wanna play?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="titles">
+        <h1>rock, paper, scissors, lizard, spock</h1>
+        <h2>choose your weapon:</h2>
+    </div>
+
+    <div class="hands">
+        <div><img src="img/kamien.jpg" data-option="rock" alt=""></div>
+        <div><img src="img/papier.jpg" data-option="paper" alt=""></div>
+        <div><img src="img/nozyczki.jpg" data-option="scissors" alt=""></div>
+        <div><img src="img/lizard.jpeg" data-option="lizard" alt=""></div>
+        <div><img src="img/spock.png" data-option="Spock" alt=""></div>
+
+    </div>
+    <div class="buttons">
+        <button class="start">Let's play!</button>
+        <button class="help">How it works?</button>
+    </div>
+    <div class="left-panel">
+        <h2>game result</h2>
+        <p>Your choice: <span data-summary="your-choice"></span></p>
+        <p>Computer's choice: <span data-summary="ai-choice"></span></p>
+        <h3>Who won: <span data-summary="who-win"></span></h3>
+
+    </div>
+    <div class="right-panel">
+        <h2>score</h2>
+        <p class="numbers">games: <span>0</span></p>
+        <p class="wins">won: <span>0</span></p>
+        <p class="losses">lost: <span>0</span></p>
+        <p class="draws">draws: <span>0</span></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
